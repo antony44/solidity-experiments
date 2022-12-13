@@ -12,22 +12,23 @@ module.exports = {
                 version: "0.7.3"
             },
             {
-                version: "0.5.12",
+                version: "0.5.12"
             },
             {
-                version: "0.8.10",
+                version: "0.8.10"
             }
         ]
     },
     networks: {
         hardhat: {
-            forking: {
-                url: ALCHEMY_API_URL,
-            }
+            // forking: {
+            //     url: ALCHEMY_API_URL
+            // }
+
         },
         rinkeby: {
             url: ALCHEMY_API_URL,
-            accounts: [`${RINKEBY_PRIVATE_KEY}`],
+            accounts: [`${RINKEBY_PRIVATE_KEY}`]
             // accounts: {
             //     mnemonic: MNEMONIC,
             // }
